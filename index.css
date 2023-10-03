@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: sans-serif;
+
+}
+.navmenu{
+	font-size: 30px;
+	color: blueviolet;
+	font-weight: bolder;
+}
+.logo{
+	font-size: 50px;
+	font-family: Elephant;
+	font-weight: samll-caps;
+	color: orchid;
+}
+.section-menu{
+	position: relative;
+	top: 100px;
+
+}
+.section-menu div
+{
+	height: 500px;
+	width: 100%;
+	border: 5px solid darkred;
+
+}
+.navbar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	width: 100px;
+}
+.html{
+	scroll-behavior: smooth;
+}
